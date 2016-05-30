@@ -17,5 +17,8 @@ namespace ServicioColaborador
 
         [OperationContract]
         Colaborador ObtenerColaborador(int id);
+
+        [OperationContract]
+        List<Colaborador> ListarColaboradorXPendiente();
     }
 }
