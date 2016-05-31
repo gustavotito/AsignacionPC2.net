@@ -69,6 +69,7 @@
     <Compile Include="Dominio\Colaborador.cs" />
     <Compile Include="IColaboradorService.cs" />
     <Compile Include="Persistencia\ColaboradorDAO.cs" />
+    <Compile Include="Persistencia\ConexionUtil.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
